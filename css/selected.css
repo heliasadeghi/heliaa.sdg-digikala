@@ -1,0 +1,840 @@
+
+div.selected {
+  width: 80%;
+  height: 860px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 20px auto;
+  direction: rtl;
+}
+div.selected > div {
+  width: 100%;
+  height: 100%;
+  padding: 16px 0px;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  display: block;
+}
+div.selected > div > div.part1 {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+}
+div.selected > div > div.part1 > div {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  right: 463.21px;
+  line-height: 44px;
+}
+div.selected > div > div.part1 > div > p {
+  margin: auto;
+  font-size: 21px;
+  font-family: iranyekan2;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+}
+div.selected > div > div.part1 > div > p > svg {
+  margin-left: 8px;
+  display: flex;
+  margin-top: 10px;
+}
+div.selected > div > div.part2 {
+  width: 100%;
+  display: flex;
+  height: 740px;
+  position: relative;
+}
+div.selected > div > div.part2 > a.one {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 10px;
+}
+div.selected > div > div.part2 > a.one > div,
+div.selected > div > div.part2 > a.two > div,
+div.selected > div > div.part2 > a.three > div,
+div.selected > div > div.part2 > a.four > div,
+div.selected > div > div.part2 > a.five > div,
+div.selected > div > div.part2 > a.six > div,
+div.selected > div > div.part2 > a.seven > div,
+div.selected > div > div.part2 > a.eight > div,
+div.selected > div > div.part2 > a.nine > div,
+div.selected > div > div.part2 > a.ten > div,
+div.selected > div > div.part2 > a.eleven > div,
+div.selected > div > div.part2 > a.twelve > div,
+div.selected > div > div.part2 > a.thirteen > div,
+div.selected > div > div.part2 > a.fourteen > div,
+div.selected > div > div.part2 > a.fifteen > div,
+div.selected > div > div.part2 > a.sixteen > div,
+div.selected > div > div.part2 > a.seventeen > div,
+div.selected > div > div.part2 > a.eighteen > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div.selected > div > div.part2 > a.one > div > div.child1,
+div.selected > div > div.part2 > a.two > div > div.child1,
+div.selected > div > div.part2 > a.three > div > div.child1,
+div.selected > div > div.part2 > a.four > div > div.child1,
+div.selected > div > div.part2 > a.five > div > div.child1,
+div.selected > div > div.part2 > a.six > div > div.child1,
+div.selected > div > div.part2 > a.seven > div > div.child1,
+div.selected > div > div.part2 > a.eight > div > div.child1,
+div.selected > div > div.part2 > a.nine > div > div.child1,
+div.selected > div > div.part2 > a.ten > div > div.child1,
+div.selected > div > div.part2 > a.eleven > div > div.child1,
+div.selected > div > div.part2 > a.twelve > div > div.child1,
+div.selected > div > div.part2 > a.thirteen > div > div.child1,
+div.selected > div > div.part2 > a.fourteen > div > div.child1,
+div.selected > div > div.part2 > a.fifteen > div > div.child1,
+div.selected > div > div.part2 > a.sixteen > div > div.child1,
+div.selected > div > div.part2 > a.seventeen > div > div.child1,
+div.selected > div > div.part2 > a.eighteen > div > div.child1 {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  padding: 0px 23px;
+  box-sizing: border-box;
+}
+div.selected > div > div.part2 > a.one > div > div.child1 > img,
+div.selected > div > div.part2 > a.two > div > div.child1 > img,
+div.selected > div > div.part2 > a.three > div > div.child1 > img,
+div.selected > div > div.part2 > a.four > div > div.child1 > img,
+div.selected > div > div.part2 > a.five > div > div.child1 > img,
+div.selected > div > div.part2 > a.six > div > div.child1 > img,
+div.selected > div > div.part2 > a.seven > div > div.child1 > img,
+div.selected > div > div.part2 > a.eight > div > div.child1 > img,
+div.selected > div > div.part2 > a.nine > div > div.child1 > img,
+div.selected > div > div.part2 > a.ten > div > div.child1 > img,
+div.selected > div > div.part2 > a.eleven > div > div.child1 > img,
+div.selected > div > div.part2 > a.twelve > div > div.child1 > img,
+div.selected > div > div.part2 > a.thirteen > div > div.child1 > img,
+div.selected > div > div.part2 > a.fourteen > div > div.child1 > img,
+div.selected > div > div.part2 > a.fifteen > div > div.child1 > img,
+div.selected > div > div.part2 > a.sixteen > div > div.child1 > img,
+div.selected > div > div.part2 > a.seventeen > div > div.child1 > img,
+div.selected > div > div.part2 > a.eighteen > div > div.child1 > img {
+  width: 100%;
+  height: 100%;
+}
+div.selected > div > div.part2 > a.one > div > div.child2,
+div.selected > div > div.part2 > a.two > div > div.child2,
+div.selected > div > div.part2 > a.three > div > div.child2,
+div.selected > div > div.part2 > a.four > div > div.child2,
+div.selected > div > div.part2 > a.five > div > div.child2,
+div.selected > div > div.part2 > a.six > div > div.child2,
+div.selected > div > div.part2 > a.seven > div > div.child2,
+div.selected > div > div.part2 > a.eight > div > div.child2,
+div.selected > div > div.part2 > a.nine > div > div.child2,
+div.selected > div > div.part2 > a.ten > div > div.child2,
+div.selected > div > div.part2 > a.eleven > div > div.child2,
+div.selected > div > div.part2 > a.twelve > div > div.child2,
+div.selected > div > div.part2 > a.thirteen > div > div.child2,
+div.selected > div > div.part2 > a.fourteen > div > div.child2,
+div.selected > div > div.part2 > a.fifteen > div > div.child2,
+div.selected > div > div.part2 > a.sixteen > div > div.child2,
+div.selected > div > div.part2 > a.seventeen > div > div.child2,
+div.selected > div > div.part2 > a.eighteen > div > div.child2 {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+}
+div.selected > div > div.part2 > a.one > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.three > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.four > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.five > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.six > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.seven > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.eight > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.nine > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.ten > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.eleven > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.twelve > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.thirteen > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.fourteen > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.fifteen > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.sixteen > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.seventeen > div > div.child2 > div.kid1,
+div.selected > div > div.part2 > a.eighteen > div > div.child2 > div.kid1 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+}
+div.selected > div > div.part2 > a.one > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.three > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.four > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.five > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.six > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.seven > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.eight > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.nine > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.ten > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.eleven > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.twelve > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.thirteen > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.fourteen > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.fifteen > div > div.child2 > div.kid1 > div,
+div.selected > div > div.part2 > a.sixteen > div > div.child2 > div.kid1 > div,
+div.selected
+  > div
+  > div.part2
+  > a.seventeen
+  > div
+  > div.child2
+  > div.kid1
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.eighteen
+  > div
+  > div.child2
+  > div.kid1
+  > div {
+  position: absolute;
+  width: 34px;
+  height: 20px;
+  padding: 0px 4px;
+  background-color: #ef394e;
+  border-radius: 9px;
+  top: 8px;
+  right: 10px;
+  text-align: center;
+}
+div.selected
+  > div
+  > div.part2
+  > a.one
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.two
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.three
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.four
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.five
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.six
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.seven
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.eight
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.nine
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.ten
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.eleven
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.twelve
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.thirteen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.fourteen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.fifteen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.sixteen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.seventeen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.eighteen
+  > div
+  > div.child2
+  > div.kid1
+  > div
+  > span {
+  font-size: 12px;
+  font-family: iranyekan2;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  right:calc(50% - 10px);
+}
+
+div.selected > div > div.part2 > a.ten > div > div.child2 > div.kid1 > span{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: iranyekan2;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    color: #424750;
+    width: auto;
+    right: 98px;
+}
+
+div.selected > div > div.part2 > a.one > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.three > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.four > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.five > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.six > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.seven > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.eight > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.nine > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.eleven > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.twelve > div > div.child2 > div.kid1 > span,
+div.selected
+  > div
+  > div.part2
+  > a.thirteen
+  > div
+  > div.child2
+  > div.kid1
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.fourteen
+  > div
+  > div.child2
+  > div.kid1
+  > span,
+div.selected > div > div.part2 > a.fifteen > div > div.child2 > div.kid1 > span,
+div.selected > div > div.part2 > a.sixteen > div > div.child2 > div.kid1 > span,
+div.selected
+  > div
+  > div.part2
+  > a.seventeen
+  > div
+  > div.child2
+  > div.kid1
+  > span,
+div.selected
+  > div
+  > div.part2
+  > a.eighteen
+  > div
+  > div.child2
+  > div.kid1
+  > span {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: iranyekan2;
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  color: #424750;
+  width: auto;
+  right: 110px;
+}
+div.selected
+  > div
+  > div.part2
+  > a.one
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.two
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.three
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.four
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.five
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.six
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.seven
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.eight
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.nine
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.ten
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.eleven
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.twelve
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.thirteen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.fourteen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.fifteen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.sixteen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+div.selected
+  > div
+  > div.part2
+  > a.seventeen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div,
+selected
+  > div
+  > div.part2
+  > a.eighteen
+  > div
+  > div.child2
+  > div.kid1
+  > span
+  > div {
+  margin: 3px 0px 0px 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+div.selected > div > div.part2 > a.one > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.two > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.three > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.four > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.five > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.six > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.seven > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.eight > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.nine > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.ten > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.eleven > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.twelve > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.thirteen > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.fourteen > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.fifteen > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.sixteen > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.seventeen > div > div.child2 > div.kid2,
+div.selected > div > div.part2 > a.eighteen > div > div.child2 > div.kid2 {
+  width: 80%;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: iranyekan2;
+  position: absolute;
+  top: 40px;
+  right: 125px;
+  color: #c0c2c5;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+div.selected > div > div.part2 > a.two {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 214px;
+}
+div.selected > div > div.part2 > a.three {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 418px;
+}
+div.selected > div > div.part2 > a.four {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 622px;
+}
+div.selected > div > div.part2 > a.five {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 826px;
+}
+div.selected > div > div.part2 > a.six {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 1030px;
+}
+div.selected > div > div.part2 > a.seven {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 10px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.eight {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 214px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.nine {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 418px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.ten {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 622px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.eleven {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 826px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.twelve {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-bottom: 1px solid #f0f0f1;
+  position: absolute;
+  right: 1030px;
+  top: 230px;
+}
+div.selected > div > div.part2 > a.thirteen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  position: absolute;
+  right: 10px;
+  top: 460px;
+}
+div.selected > div > div.part2 > a.fourteen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  position: absolute;
+  right: 214px;
+  top: 460px;
+}
+div.selected > div > div.part2 > a.fifteen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  position: absolute;
+  right: 418px;
+  top: 460px;
+}
+div.selected > div > div.part2 > a.sixteen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  position: absolute;
+  right: 622px;
+  top: 460px;
+}
+div.selected > div > div.part2 > a.seventeen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  position: absolute;
+  right: 826px;
+  top: 460px;
+}
+div.selected > div > div.part2 > a.eighteen {
+  width: 204px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  position: absolute;
+  right: 1030px;
+  top: 460px;
+}
+
+div.selected > div > div.part2>span{
+  font-size: 14px;
+  color: #19BFD3;
+  position: absolute;
+  bottom: 20px;
+  right: 581px;
+  font-weight: 600px;
+}
+div.selected > div > div.part2>svg{
+  position: absolute;
+  bottom: 25px;
+  right: 670px;
+}

@@ -1,0 +1,26 @@
+div.headphone{
+    border-radius: 50%;
+    width: 48px !important;
+    height: 48px !important;
+    background-color: #EF394E;
+    z-index: 99999;
+    position: fixed;
+    bottom: 15px;
+    left: 60px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+  
+}
+div.headphone>i{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+width: 28px;
+height: 28px;
+z-index: 9999999;
+display: inline-block;
+line-height: 48px;
+}

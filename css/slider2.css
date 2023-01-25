@@ -1,0 +1,64 @@
+div.slider2 {
+  width: 80%;
+  margin: auto;
+  padding: 10px 16px;
+}
+
+div.slider2 > div {
+  box-sizing: border-box;
+  border: 1px solid #e0e0e2;
+  margin: auto;
+  height: 224.09px;
+  border-radius: 16px;
+  width: 100%;
+  padding: 20px 0px;
+  direction: rtl;
+}
+div.slider2 > div > div.first {
+  width: 100%;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+div.slider2 > div > div.first > h2 {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: iranyekan2;
+  visibility: top;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  position: absolute;
+  left: 550px;
+  top: -6px;
+}
+div.slider2 > div > div.first > div {
+  display: inline-block;
+  position: absolute;
+  left: 720px;
+  top: 2px;
+}
+div.slider2 > div > div.first > div > svg {
+  visibility: top;
+  fill: var(--color-icon-rating-0-2);
+}
+div.slider2 > div {
+  position: relative;
+}
+div.slider2 > div > div.secound > div {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  height: 118px;
+}
+div.slider2 > div > div.secound > div
+.persil{
+  width: 70%;
+  height: 80%;
+  align-items: center;
+  margin: auto;
+}
+.one-one{
+  border-left: 1px solid #f0f0f1;
+}

@@ -1,0 +1,101 @@
+div.group {
+  width: 80%;
+  margin: auto;
+
+  padding: 16px;
+  direction: rtl;
+  align-items: center;
+  text-align: center;
+}
+div.group > div > h2 {
+  font-family: iranyekan2;
+  font-weight: 500;
+  font-size: 21px;
+  word-spacing: 0px;
+}
+
+div.group > div.onee {
+  width: 100%;
+  direction: rtl;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+div.group > div.onee > a {
+  height: 204.039px;
+  align-items: center;
+  margin: auto;
+}
+div.group > div.onee > a > div {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  align-items: center;
+}
+div.group > div.onee > a > div > img {
+  width: 170px;
+  display: block;
+}
+div.group > div.twoo {
+  width: 80%;
+  direction: rtl;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+div.group > div.twoo > a {
+  height: 204.039px;
+  align-items: center;
+  margin: auto;
+}
+div.group > div.twoo > a > div {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  align-items: center;
+}
+div.group > div.twoo > a > div > img {
+  width: 170px;
+  height: auto;
+  display: block;
+}
+div.group > div.onee > a {
+  text-decoration: none;
+  height: auto;
+}
+div.group > div.twoo > a {
+  text-decoration: none;
+}
+div.group > div.onee > a > p {
+  font-size: 12px;
+  font-family: iranyekan2;
+  font-weight: 595;
+  display: block;
+  color: black;
+}
+div.group > div.twoo > a > p {
+  font-size: 12px;
+  font-family: iranyekan2;
+  font-weight: 595;
+  display: block;
+  color: black;
+}
+div.undergroup {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  direction: rtl;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.undergroup > img {
+  width: 620px;
+  border-radius: 16px;
+  transition: all 0.3s;
+  display: block;
+}
+div.undergroup > img.full {
+  margin-left: 20px;
+}

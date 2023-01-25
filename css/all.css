@@ -1,0 +1,229 @@
+*{word-spacing: 0px;}
+div.all {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  align-items: center !important ;
+  padding: 18px 0px 0px 0px;
+}
+
+div.all > div.underslider {
+  display: flex;
+  width: 80%;
+  height: 118px;
+  direction: rtl;
+  margin: auto;
+}
+div.all > div.underslider > div {
+  display: block;
+  height: inherit;
+  width: 10%;
+
+  margin: auto;
+}
+div.all > div.underslider > div {
+  padding: 15px 0px 0px 0px;
+}
+div.all > div.underslider > div > img {
+  display: block;
+  margin: 0px auto;
+  width: 52px;
+  height: 52px;
+}
+
+div.all > div.underslider > div > p {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+div.all > div.underslider > div > div.circle {
+  border: 0px;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  width: 52px;
+  height: 52px;
+  margin: auto;
+  line-height: 50px;
+  line-break: anywhere;
+  display: block;
+}
+div.all > div.underslider > div > div.circle > span {
+  border-radius: 50%;
+  border: 0px;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background-color: #a1a3a8;
+  line-break: anywhere;
+}
+div.all > div.underslider > div > p {
+  display: inline-block;
+  font-size: 12px;
+}
+div.box {
+  padding-top: 24px;
+  box-sizing: border-box;
+  display: flex;
+}
+div.box > div.offers {
+  direction: rtl;
+  padding: 20px 2px 20px 0px;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 80%;
+  height: 287px;
+  background-color: #ef3a50;
+}
+div.box > div.offers > div {
+  height: 246.5px;
+  width: 100%;
+}
+div.box > div.offers > div > div.offer1 {
+  display: block;
+  width: 173px;
+  height: 246.5px;
+  align-items: center;
+  text-align: center;
+}
+div.box > div.offers > div > div.offer1 > div:not(:last-child) {
+  width: auto;
+  height: auto;
+  margin-top: 2px;
+
+  align-items: center !important;
+  text-align: center;
+}
+div.box > div.offers > div > div.offer1 > div > .img1 {
+  width: 92px;
+  height: 77px;
+  margin-top: 10px;
+}
+
+div.box > div.offers > div > div.offer1 > div > .img2 {
+  box-sizing: border-box;
+  height: 115px;
+  margin: auto;
+}
+div.box > div.offers > div > div.offer1 > div > p {
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.amazing {
+  display: block;
+  padding: 10px 0px;
+  width: 100%;
+  height: 110;
+  align-items: center;
+  direction: rtl;
+  display: flex;
+}
+div.amazing > div {
+  display: flex;
+  width: 80%;
+  height: 102px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #edefed;
+  box-align: center;
+}
+div.amazing > div > div.offer2 {
+  display: block;
+  height: 62px;
+  margin: auto 40px;
+  margin-left: 20px !important;
+}
+div.amazing > div > div.offer2 > img:not(:first-child) {
+  display: inline-block;
+  margin: 20px 20px 0px 0px;
+  vertical-align: top;
+  width: 250px;
+}
+div.amazing > div > div.discount {
+  display: inline-block;
+  padding: 6px 12px;
+  align-items: center;
+  width: 109px;
+  height: 30px;
+  border-radius: 40px;
+  background-color: #39ae00;
+  margin-top: 40px;
+  text-align: center;
+}
+div.amazing > div > div.discount > p {
+  font-size: 13px;
+  color: #edefed;
+  font-weight: bold;
+}
+div.amazing > div > div.sales5 {
+  display: flex;
+  width: 633px;
+  height: 74px;
+  margin: auto;
+  margin-right: 100px !important;
+}
+div.amazing > div > div.sales5 > a {
+  display: flex;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0px 0px 16px 8px;
+  align-items: center;
+  padding: 8px;
+  position: relative;
+  z-index: 0;
+}
+div.amazing > div > div.sales5 > a > div {
+  display: flex;
+  position: absolute;
+  width: 34px;
+  height: 20px;
+  background-color: #ef3a50;
+  border-radius: 9px;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  padding: 1px;
+}
+div.amazing > div > div.sales5 > a > div > span {
+  font-size: 12px;
+  color: #fff;
+  margin: auto;
+}
+div.amazing > div > div.sales5 > a > img {
+  display: block;
+  margin: auto;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+div.amazing > div > div.sales5 > div {
+  display: block;
+  width: 141px;
+  height: 50.04px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+}
+div.amazing > div > div.sales5 > div > span {
+  font-size: 13px;
+  color: #39ae00;
+  margin: 12px 5px 0px 10px;
+  display: block;
+}
+div.container {
+ margin-top: 20px !important;
+  width: 80%;
+  margin: auto;
+  direction: rtl;
+}
+div.container > img {
+  margin-left:2px;
+  width: 314px;
+  border-radius:16px;
+}

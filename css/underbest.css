@@ -1,0 +1,23 @@
+div.underbest{
+    width: 80%;
+    height: 166px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    direction: rtl;
+
+}
+div.underbest>div{
+width: 100%;
+height: 100%;
+border-radius: 16px;
+display: flex;
+
+}
+div.underbest>div>img{
+   width: 100%;
+   display: block;
+   height: 166px;
+    border-radius: 16px;
+}

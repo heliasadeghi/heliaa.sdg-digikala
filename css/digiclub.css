@@ -1,0 +1,201 @@
+div.digiclub {
+  width: 80%;
+  padding: 7px 16px;
+  margin-top: 0px;
+  margin: auto;
+}
+div.digiclub > div {
+  box-sizing: border-box;
+  width: 100%;
+
+  height: 88px;
+  border-radius: 16px;
+  margin: 0px;
+  direction: rtl;
+  line-height: 44px;
+  background-image: url(../image/Blue\ Raspberry.jpg);
+  background-size: cover;
+}
+
+div.digiclub > div > div.logo {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+div.digiclub > div > div.logo > div {
+  width: 119px;
+  height: 33px;
+  position: absolute;
+  right: 40px;
+  top: 27.5px;
+}
+
+div.digiclub > div > div.logo > div > img {
+  width: inherit;
+  height: inherit;
+}
+div.digiclub > div > div.line {
+  width: 59%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+div.digiclub > div > div.line > div.one {
+  width: 32.7%;
+  height: 80%;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.digiclub > div > div.line > div.two {
+  width: 32.7%;
+  height: 80%;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  right: 248px;
+}
+div.digiclub > div > div.line > div.three {
+  width: 32.7%;
+  height: 80%;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  left: 0;
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+div.digiclub > div > div.line > div.one > div.main {
+  width: 110px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+div.digiclub > div > div.line > div.one > div.main >div{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 10px;
+  line-height: 72px;
+  top: 26px;
+}
+div.digiclub > div > div.line > div.one > div.main >div>svg{position: absolute;
+right: 1px;
+top: 0;}
+
+div.digiclub > div > div.line > div.one > div.main >p{
+  font-family: iranyekan2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 72px;
+  position: absolute;
+  right: 36px;
+}
+div.digiclub > div > div.line > div.one > div.image {
+  width: 140px;
+  height:100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(97, 118, 211);
+  display: inline-block;
+}
+div.digiclub > div > div.line > div.one > div.image >img{
+  width: 100%;
+  height: 100%;
+}
+div.digiclub > div > div.line > div.two > div.main {
+  width: 110px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+div.digiclub > div > div.line > div.two > div.main >div{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 10px;
+  line-height: 72px;
+  top: 26px;
+}
+div.digiclub > div > div.line > div.two > div.main >div>svg{position: absolute;
+right: 1px;
+top: 0;}
+
+div.digiclub > div > div.line > div.two > div.main >p{
+  font-family: iranyekan2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 72px;
+  position: absolute;
+  right: 36px;
+}
+div.digiclub > div > div.line > div.two > div.image {
+  width: 145px;
+  height:100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(97, 118, 211);
+  display: inline-block;
+}
+div.digiclub > div > div.line > div.two > div.image >img{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+div.digiclub > div > div.line > div.three> div.main {
+  width: 110px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+div.digiclub > div > div.line > div.three> div.main >div{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 10px;
+  line-height: 72px;
+  top: 26px;
+  cursor: pointer;
+}
+div.digiclub > div > div.line > div.three > div.main >div>svg{position: absolute;
+right: 1px;
+top: 0;}
+
+div.digiclub > div > div.line > div.three > div.main >p{
+  font-family: iranyekan2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 72px;
+  position: absolute;
+  right: 36px;
+}
+div.digiclub > div > div.line > div.three > div.image {
+  width: 150px;
+  height:100%;
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+}
+div.digiclub > div > div.line > div.three > div.image >img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

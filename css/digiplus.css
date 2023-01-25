@@ -1,0 +1,212 @@
+div.digiplus {
+  width: 80%;
+  padding: 2px 16px;
+  margin-top: 0px;
+  margin: auto;
+  display: block;
+}
+div.digiplus > div {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #941b80;
+  height: 378.4px;
+  border-radius: 16px;
+  margin: 0px;
+  direction: rtl;
+  padding: 16px;
+  display: block;
+}
+div.digiplus > div > div.child {
+  width: 385px;
+  height: 100%;
+  padding-top: 24px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 16px;
+  vertical-align: top;
+}
+div.digiplus > div > div.childs {
+  width: 810px;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+div.digiplus > div > div.childs > div.first {
+  width: 49.6%;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 100%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+div.digiplus > div > div.childs > div.first > div.top,
+div.digiplus > div > div.childs > div.last > div.top {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 16px 0px;
+  display: block;
+  position: relative;
+}
+div.digiplus > div > div.childs > div.first > div.bottom,
+div.digiplus > div > div.childs > div.last > div.bottom {
+  width: 100%;
+  height: 280px;
+  line-height: 60px;
+  padding: 16px 0px;
+  display: block;
+  position: relative;
+  padding: 0px 16px 20px 16px;
+}
+
+div.digiplus > div > div.child > div.one {
+  width: 385px !important;
+  height: 20%;
+  padding-right: 24px;
+  display: block;
+}
+div.digiplus > div > div.child > div.two {
+  width: 385px;
+  height: 80%;
+  display: block;
+  background-image: url(../image/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.digiplus > div > div.child > div.one > a {
+  width: 100%;
+  height: 32px;
+  display: block;
+}
+div.digiplus > div > div.child > div.one > a > div {
+  display: block;
+  width: 128px;
+  height: 32px;
+}
+div.digiplus > div > div.child > div.one > a > div > img {
+  width: 100%;
+  height: 100%;
+}
+div.digiplus > div > div.child > div.one > div {
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: iranyekan2;
+  margin: 8px 0px 0px 0px;
+  height: 30px;
+  width: 100%;
+  color: #fff;
+}
+div.digiplus > div > div.childs > div.first > div.top > svg:not(:last-child),
+div.digiplus > div > div.childs > div.last > div.top > svg:not(:last-child) {
+  display: inline-block;
+  position: absolute;
+  right: 14px;
+  top: 19px;
+}
+div.digiplus > div > div.childs > div.first > div.top > h4,
+div.digiplus > div > div.childs > div.last > div.top > h4 {
+  display: inline-block;
+  position: absolute;
+  font-size: 16px;
+  top: 0;
+  right: 45px;
+  font-family: iranyekan2;
+  font-weight: 550;
+}
+
+div.digiplus > div > div.childs > div.first > div.top > h5,
+div.digiplus > div > div.childs > div.last > div.top > h5 {
+  position: absolute;
+  left: 34px;
+  top: 0px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 300;
+  color: #941b80;
+}
+
+div.digiplus > div > div.childs > div.first > div.top > svg.left,
+div.digiplus > div > div.childs > div.last > div.top > svg.left {
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  font-size: 10px;
+}
+div.digiplus > div > div.childs > div.last {
+  width: 49.6%;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+  height: 100%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.digiplus > div > div.childs > div.first > div.bottom > div.one,
+div.digiplus > div > div.childs > div.last > div.bottom > div.one {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+div.digiplus > div > div.childs > div.first > div.bottom > div.one > img,
+div.digiplus > div > div.childs > div.first > div.bottom > div.two > img,
+div.digiplus > div > div.childs > div.first > div.bottom > div.three > img,
+div.digiplus > div > div.childs > div.first > div.bottom > div.four > img,
+div.digiplus > div > div.childs > div.first > div.bottom > div.five > img,
+div.digiplus > div > div.childs > div.first > div.bottom > div.six > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.one > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.two > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.three > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.four > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.five > img,
+div.digiplus > div > div.childs > div.last > div.bottom > div.six > img{
+  width: inherit;
+  height: inherit;
+}
+div.digiplus > div > div.childs > div.first > div.bottom > div.two,
+div.digiplus > div > div.childs > div.last > div.bottom > div.two {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 140px;
+  top: 10px;
+  flex-direction: row-reverse;
+}
+
+div.digiplus > div > div.childs > div.first > div.bottom > div.three,
+div.digiplus > div > div.childs > div.last > div.bottom > div.three {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 267px;
+  top: 10px;
+}
+div.digiplus > div > div.childs > div.first > div.bottom > div.four,
+div.digiplus > div > div.childs > div.last > div.bottom > div.four {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 13px;
+  top: 141px;
+}
+div.digiplus > div > div.childs > div.first > div.bottom > div.five,
+div.digiplus > div > div.childs > div.last > div.bottom > div.five {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 140px;
+  top: 141px;
+}
+div.digiplus > div > div.childs > div.first > div.bottom > div.six,
+div.digiplus > div > div.childs > div.last > div.bottom > div.six {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 267px;
+  top: 141px;
+}

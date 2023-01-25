@@ -1,0 +1,105 @@
+div.special {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 16px;
+  direction: rtl;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+div.special > div > h2 {
+  font-family: iranyekan2;
+  font-weight: 500;
+  font-size: 21px;
+  word-spacing: 0px;
+}
+
+div.special > div.baby {
+  border: 1px solid #E0E0E2;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+div.special > div.baby > div.row2 {
+  width: 100%;
+  height: auto;
+}
+
+div.special > div.baby > div.row2 > div {
+  width: 13.8%;
+  padding: 16px 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+div.special > div.baby > div.row2 > div > div {
+  width: 84px;
+  height: 84px;
+  margin: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #f0f0f1;
+  border-radius: 50%;
+}
+
+div.special > div.baby > div.row1 {
+  width: 100% !important;
+  height: auto;
+  
+}
+
+div.special > div.baby > div.row1 > div:not(:last-child) {
+  width: 13.9%;
+  padding: 16px 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-left: 1px solid #F0F0F1;
+  border-bottom: 1px solid #F0F0F1;
+  border-right: none;
+  margin: 0px !important;
+}
+div.special > div.baby > div.row2 > div:not(:last-child) {
+  width: 13.9%;
+  padding: 16px 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-left: 1px solid #F0F0F1;
+ 
+  border-right: none;
+  margin: 0px !important;
+}
+div.special > div.baby > div.row1 > div.lastt {
+  width: 13.9%;
+  padding: 16px 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-bottom: 1px solid #F0F0F1;
+}
+
+div.special > div.baby > div.row1 > div > div {
+  width: 84px;
+  height: 84px;
+  margin: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color:#F0F0F1;
+  border-radius: 50%;
+}
+
+div.special > div.baby > div.row1 > div > div > img {
+  width: 100%;
+}
+div.special > div.baby > div.row2 > div > div > img {
+  width: 100%;
+}
+div.special > div.baby > div.row1 > div > h4 {
+  font-size: 13px !important;
+  font-family: iranyekan2;
+  font-weight: 100;
+}
+div.special > div.baby > div.row2 > div > h4 {
+  font-size: 13px !important;
+  font-family: iranyekan2;
+  font-weight: 100;
+}
